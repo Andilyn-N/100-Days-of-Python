@@ -20,8 +20,6 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/_____ /
 *******************************************************************************
 ''')
-print("Welcome to Treasure Island.")
-print("Your mission is to find the treasure.")
 direction_1 = input(print("You're at a crossroads. Where do you want to go? \n Type \"left\" or \"right\".\n "))
 # I can't get the "none" to go away but if you ignore it, the code works besides that.
 if direction_1 == "left" or direction_1 == "Left":
