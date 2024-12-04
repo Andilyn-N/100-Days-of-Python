@@ -16,12 +16,12 @@ print(logo)
 game_continue = True
 secret_bids = {}
 while game_continue:
-    namez = input("What is your name?")
-    bid_num = input("What is your bid?")
+    namez = input("What is your name?\n")
+    bid_num = input("What is your bid? \n$")
 
     secret_bids[namez] = bid_num
 
-    restart_question = input("Are there any more bidders?").lower()
+    restart_question = input("Are there any more bidders?\n").lower()
     print("\n" * 100)
     if restart_question == "no":
         game_continue = False
