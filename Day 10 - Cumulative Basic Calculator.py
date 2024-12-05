@@ -36,6 +36,7 @@ calc_dict = {
 }
 
 # print(calc_dict["*"](4, 8))
+# output will print 32
 
 calc_continue = True
 running_number = {}
