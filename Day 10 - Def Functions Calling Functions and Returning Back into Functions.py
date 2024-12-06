@@ -7,6 +7,8 @@ def titlecase(s):
 def my_function():
     return 3*2
 # storing the return into variable "output"
+# functions terminate at the "return" keyword
+# any code below the return statement will not be executed
 output = my_function()
 
 def format_name(f_name, l_name):
