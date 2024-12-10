@@ -13,7 +13,7 @@
 # 		If no, player wins
 
 # if player < 21 ask: Do you want to hit or stand?
-# 	if hit, draw another random card add to total, copmuter's turn
+# 	if hit, draw another random card add to total, computer's turn
 # 	if stand, no more cards, computer's turn
 
 # If player cards > 21:
